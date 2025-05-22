@@ -2,6 +2,13 @@
 items:
   - text: Menu One
     url: "#"
+  - text: Services # New dropdown menu
+    url: "#" # Or the main page for services
+    dropdown:
+      - text: Service A
+        url: "/services/a"
+      - text: Service B
+        url: "/services/b"
   - text: Menu Two
     url: "#"
   - text: Menu Three
